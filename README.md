@@ -8,7 +8,7 @@ Languages utilisées :
 * Python (si motivation)
 
 En cours :
-- [ ] Array : Vecteur 
+- [ ] **Array : Vecteur**
 - [ ] LinkedList
 - [ ] Stacks
 - [ ] Queues
