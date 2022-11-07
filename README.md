@@ -6,3 +6,10 @@ Languages utilisées :
 * C# 
 * C++
 * Python (si motivation)
+
+En cours :
+- [ ] Array : Vecteur 
+- [ ] LinkedList
+- [ ] Stacks
+- [ ] Queues
+- [ ] Hash Table
