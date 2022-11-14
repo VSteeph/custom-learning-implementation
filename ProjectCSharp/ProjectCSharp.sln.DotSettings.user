@@ -3,4 +3,9 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;MSTest::7CFEB6AF-7D73-4691-A07F-7BEEE759184E::net6.0::TestProject.VectorTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d8e54795_002D1b6a_002D451d_002D88b6_002D1d1d10bbd28c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="VectorTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::7CFEB6AF-7D73-4691-A07F-7BEEE759184E::net6.0::TestProject.VectorTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

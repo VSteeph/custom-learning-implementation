@@ -40,15 +40,7 @@ public class CustomArray<T>
             return;
         
         Resize();
-        T newValue = value;
-        T oldValue;
-        for (int i = index; i < Size; i++)
-        {
-            oldValue = data[i];
-            data[i] = newValue;
-            newValue = oldValue;
-        }
-        Push(newValue);
+        ShiftRight(index, value);
     }
 
     public T Pop()
@@ -72,5 +64,53 @@ public class CustomArray<T>
             newData[i] = data[i];
         }
         data = newData;
+    }
+
+    public int Find(T value)
+    {
+        for (int i = 0; i < Size; i++)
+        {
+            if (data[i].Equals(value))
+                return i;
+        }
+
+        return -1;
+    }
+
+    public void Remove(T value)
+    {
+        for (int i = Size; i >= 0; i++)
+        {
+            if (data[i].Equals(value))
+            {
+                ShiftLeft(i);
+            }
+        }
+    }
+
+    public void delete(int index)
+    {
+        ShiftLeft(index);
+    }
+
+    private void ShiftLeft(int index)
+    {
+        for (int i = index; i < Size - 1; i++)
+        {
+            data[i] = data[i + 1];
+        }
+    }
+
+    private void ShiftRight(int index, T value)
+    {
+        T newValue = value;
+        T oldValue;
+        for (int i = index; i < Size; i++)
+        {
+            oldValue = data[i];
+            data[i] = newValue;
+            newValue = oldValue;
+        }
+        Push(newValue);
     }
 }

@@ -203,3 +203,9 @@ E:\Code\custom-learning-implementation\ProjectCSharp\TestProject\obj\Debug\net6.
 E:\Code\custom-learning-implementation\ProjectCSharp\TestProject\obj\Debug\net6.0\TestProject.pdb
 E:\Code\custom-learning-implementation\ProjectCSharp\TestProject\obj\Debug\net6.0\TestProject.genruntimeconfig.cache
 >>>>>>> 0120b4c8ef98eba01d931d9840e061bf3784f4e2
+C:\dev\Autres\custom-learning-implementation\ProjectCSharp\TestProject\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\dev\Autres\custom-learning-implementation\ProjectCSharp\TestProject\bin\Debug\net6.0\ProjectCSharp.deps.json
+C:\dev\Autres\custom-learning-implementation\ProjectCSharp\TestProject\bin\Debug\net6.0\ProjectCSharp.runtimeconfig.json
+C:\dev\Autres\custom-learning-implementation\ProjectCSharp\TestProject\bin\Debug\net6.0\ProjectCSharp.exe
+C:\dev\Autres\custom-learning-implementation\ProjectCSharp\TestProject\bin\Debug\net6.0\ProjectCSharp.dll
+C:\dev\Autres\custom-learning-implementation\ProjectCSharp\TestProject\bin\Debug\net6.0\ProjectCSharp.pdb
