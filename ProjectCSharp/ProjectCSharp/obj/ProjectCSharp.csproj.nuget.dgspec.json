@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\Autres\\custom-learning-implementation\\ProjectCSharp\\ProjectCSharp\\ProjectCSharp.csproj": {}
+    "E:\\Code\\custom-learning-implementation\\ProjectCSharp\\ProjectCSharp\\ProjectCSharp.csproj": {}
   },
   "projects": {
-    "C:\\dev\\Autres\\custom-learning-implementation\\ProjectCSharp\\ProjectCSharp\\ProjectCSharp.csproj": {
+    "E:\\Code\\custom-learning-implementation\\ProjectCSharp\\ProjectCSharp\\ProjectCSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\Autres\\custom-learning-implementation\\ProjectCSharp\\ProjectCSharp\\ProjectCSharp.csproj",
+        "projectUniqueName": "E:\\Code\\custom-learning-implementation\\ProjectCSharp\\ProjectCSharp\\ProjectCSharp.csproj",
         "projectName": "ProjectCSharp",
-        "projectPath": "C:\\dev\\Autres\\custom-learning-implementation\\ProjectCSharp\\ProjectCSharp\\ProjectCSharp.csproj",
-        "packagesPath": "C:\\Users\\HCUBEStephane\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\Autres\\custom-learning-implementation\\ProjectCSharp\\ProjectCSharp\\obj\\",
+        "projectPath": "E:\\Code\\custom-learning-implementation\\ProjectCSharp\\ProjectCSharp\\ProjectCSharp.csproj",
+        "packagesPath": "C:\\Users\\Svill\\.nuget\\packages\\",
+        "outputPath": "E:\\Code\\custom-learning-implementation\\ProjectCSharp\\ProjectCSharp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HCUBEStephane\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Svill\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,8 +43,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -60,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
