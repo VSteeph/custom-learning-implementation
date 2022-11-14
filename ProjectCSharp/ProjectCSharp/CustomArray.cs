@@ -4,8 +4,6 @@ public class CustomArray<T>
 {
     public int Capacity { get; set; }
     public int Size { get; set; }
-    
-    private int[]
 
     public CustomArray(int x)
     {
