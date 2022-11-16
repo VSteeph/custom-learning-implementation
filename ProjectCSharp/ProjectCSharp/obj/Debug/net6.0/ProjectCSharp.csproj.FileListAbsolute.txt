@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 C:\dev\Autres\custom-learning-implementation\ProjectCSharp\ProjectCSharp\obj\Debug\net6.0\ProjectCSharp.csproj.AssemblyReference.cache
 C:\dev\Autres\custom-learning-implementation\ProjectCSharp\ProjectCSharp\obj\Debug\net6.0\ProjectCSharp.GeneratedMSBuildEditorConfig.editorconfig
 C:\dev\Autres\custom-learning-implementation\ProjectCSharp\ProjectCSharp\obj\Debug\net6.0\ProjectCSharp.AssemblyInfoInputs.cache
@@ -14,20 +13,3 @@ C:\dev\Autres\custom-learning-implementation\ProjectCSharp\ProjectCSharp\obj\Deb
 C:\dev\Autres\custom-learning-implementation\ProjectCSharp\ProjectCSharp\obj\Debug\net6.0\ProjectCSharp.pdb
 C:\dev\Autres\custom-learning-implementation\ProjectCSharp\ProjectCSharp\obj\Debug\net6.0\ProjectCSharp.genruntimeconfig.cache
 C:\dev\Autres\custom-learning-implementation\ProjectCSharp\ProjectCSharp\obj\Debug\net6.0\ref\ProjectCSharp.dll
-=======
-E:\Code\custom-learning-implementation\ProjectCSharp\ProjectCSharp\bin\Debug\net6.0\ProjectCSharp.exe
-E:\Code\custom-learning-implementation\ProjectCSharp\ProjectCSharp\bin\Debug\net6.0\ProjectCSharp.deps.json
-E:\Code\custom-learning-implementation\ProjectCSharp\ProjectCSharp\bin\Debug\net6.0\ProjectCSharp.runtimeconfig.json
-E:\Code\custom-learning-implementation\ProjectCSharp\ProjectCSharp\bin\Debug\net6.0\ProjectCSharp.dll
-E:\Code\custom-learning-implementation\ProjectCSharp\ProjectCSharp\bin\Debug\net6.0\ref\ProjectCSharp.dll
-E:\Code\custom-learning-implementation\ProjectCSharp\ProjectCSharp\bin\Debug\net6.0\ProjectCSharp.pdb
-E:\Code\custom-learning-implementation\ProjectCSharp\ProjectCSharp\obj\Debug\net6.0\ProjectCSharp.csproj.AssemblyReference.cache
-E:\Code\custom-learning-implementation\ProjectCSharp\ProjectCSharp\obj\Debug\net6.0\ProjectCSharp.GeneratedMSBuildEditorConfig.editorconfig
-E:\Code\custom-learning-implementation\ProjectCSharp\ProjectCSharp\obj\Debug\net6.0\ProjectCSharp.AssemblyInfoInputs.cache
-E:\Code\custom-learning-implementation\ProjectCSharp\ProjectCSharp\obj\Debug\net6.0\ProjectCSharp.AssemblyInfo.cs
-E:\Code\custom-learning-implementation\ProjectCSharp\ProjectCSharp\obj\Debug\net6.0\ProjectCSharp.csproj.CoreCompileInputs.cache
-E:\Code\custom-learning-implementation\ProjectCSharp\ProjectCSharp\obj\Debug\net6.0\ProjectCSharp.dll
-E:\Code\custom-learning-implementation\ProjectCSharp\ProjectCSharp\obj\Debug\net6.0\ref\ProjectCSharp.dll
-E:\Code\custom-learning-implementation\ProjectCSharp\ProjectCSharp\obj\Debug\net6.0\ProjectCSharp.pdb
-E:\Code\custom-learning-implementation\ProjectCSharp\ProjectCSharp\obj\Debug\net6.0\ProjectCSharp.genruntimeconfig.cache
->>>>>>> 0120b4c8ef98eba01d931d9840e061bf3784f4e2
