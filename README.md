@@ -16,7 +16,7 @@ En cours :
   - [ ] Python
   
 - [ ] LinkedList
-  - [ ] C# 
+  - [X] C# 
   - [ ] C++ / C
   - [ ] Python
   
