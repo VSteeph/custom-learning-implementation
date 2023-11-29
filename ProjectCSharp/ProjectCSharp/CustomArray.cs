@@ -7,7 +7,7 @@ public class CustomArray<T>
 
     private T[] data;
 
-    private int currentIndex = 0;
+    private int currentIndex;
 
     public CustomArray(int x)
     {
@@ -16,15 +16,15 @@ public class CustomArray<T>
     }
     public bool IsEmpty()
     {
-        return Size == 0 ? true : false;
+        return Size == 0;
     }
 
     public void Push(T x)
     {
-        Resize();
         data[currentIndex] = x;
         currentIndex++;
         Size++;
+        CheckResize();
     }
 
     public T At(int x)
@@ -39,39 +39,94 @@ public class CustomArray<T>
         if (index > Size)
             return;
         
-        Resize();
-        T newValue = value;
-        T oldValue;
-        for (int i = index; i < Size; i++)
-        {
-            oldValue = data[i];
-            data[i] = newValue;
-            newValue = oldValue;
-        }
-        Push(newValue);
+        ShiftRight(index, value);
+        CheckResize();
     }
 
     public T Pop()
     {
         Size--;
-        Resize();
+        CheckResize();
         return data[Size];
+    }
+
+    private void CheckResize()
+    {
+        if (Size == Capacity)
+        {
+            Capacity *= 2;
+            Resize();
+        }
+
+
+        if ( Size > 0 && Size <= Capacity / 4)
+        {
+            Capacity /= 2;
+            Resize();
+        }
+            
     }
 
     private void Resize()
     {
-        if (Size == Capacity)
-            Capacity *= 2;
-
-        if (Size <= (Capacity / 4))
-            Capacity /= 2;
-
-        T[] newData = new T[Capacity];
-        for (int i = 0; i < Size; i++)
+        var newData = new T[Capacity];
+        for (var i = 0; i < Size; i++)
         {
             newData[i] = data[i];
         }
         data = newData;
     }
 
+    public int Find(T value)
+    {
+        for (var i = 0; i < Size; i++)
+        {
+            if (data[i].Equals(value))
+                return i;
+        }
+
+        return -1;
+    }
+
+    public void Remove(T value)
+    {
+        for (int i = Size; i >= 0; i++)
+        {
+            if (data[i].Equals(value))
+            {
+                ShiftLeft(i);
+                Size--;
+                currentIndex--;
+            }
+        }
+
+        CheckResize();
+    }
+
+    public void Delete(int index)
+    {
+        ShiftLeft(index);
+        Size--;
+        currentIndex--;
+        CheckResize();
+    }
+
+    private void ShiftLeft(int index)
+    {
+        for (int i = index; i < Size - 1; i++)
+        {
+            data[i] = data[i + 1];
+        }
+    }
+
+    private void ShiftRight(int index, T value)
+    {
+        Size++;
+        for (int i = currentIndex; i > index; i--)
+        {
+            data[i] = data[i - 1];
+        }
+        data[index] = value;
+        currentIndex++;
+    }
 }

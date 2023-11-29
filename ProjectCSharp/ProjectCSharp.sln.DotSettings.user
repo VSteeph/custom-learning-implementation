@@ -1,6 +1,14 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=54475731_002D5ad3_002D49af_002Db03a_002Da5045f2e3807/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CreateAVector_ShouldReturnAVector" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=54475731_002D5ad3_002D49af_002Db03a_002Da5045f2e3807/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CreateAVector_ShouldReturnAVector" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;MSTest::7CFEB6AF-7D73-4691-A07F-7BEEE759184E::net6.0::TestProject.VectorTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::7CFEB6AF-7D73-4691-A07F-7BEEE759184E::net6.0::TestProject.LIstTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d8e54795_002D1b6a_002D451d_002D88b6_002D1d1d10bbd28c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="VectorTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::7CFEB6AF-7D73-4691-A07F-7BEEE759184E::net6.0::TestProject.VectorTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::7CFEB6AF-7D73-4691-A07F-7BEEE759184E::net6.0::TestProject.LIstTest.List_ShouldReturnSizeO_WhenNoObjectAreInserted&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::7CFEB6AF-7D73-4691-A07F-7BEEE759184E::net6.0::TestProject.LIstTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

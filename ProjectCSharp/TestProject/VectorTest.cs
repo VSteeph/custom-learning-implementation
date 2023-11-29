@@ -72,8 +72,19 @@ namespace TestProject
             arr.Push(3);
             arr.Push(4);
             arr.Push(4);
-            arr.Push(4);
             Assert.AreEqual(4, arr.Capacity);
+        }
+        
+        [TestMethod]
+        public void Vector_ShouldDoubleCapacity_WhenMaxSizeEqualsCapacityAfterAnOperation()
+        {
+            int x = 2;
+            CustomArray<int>arr = new CustomArray<int>(x);
+            arr.Push(3);
+            arr.Push(4);
+            arr.Push(4);
+            arr.Push(4);
+            Assert.AreEqual(8, arr.Capacity);
         }
         
         [TestMethod]
